@@ -27,7 +27,7 @@ The model possesses three sliders, namely number-of-nodes (ranging from 180 to 3
 
 In numbers, when the misinformation-bias is set to 30%, and a user with a 25% probability of being misinformed is misinformed, the users probability increases by 30%. The user then has a 32.5% probability of staying misinformed. There is a limit of 100% to percentage probability for cases where the addition should equal a percentage higher than 100%. Thus, the bias makes it harder for a misinformed user to be well-informed. We agree that it is a realistic implementation of what is explained in the Problem statement. The reason we decided to put this as a slider is that there are no quantitative data specifying the extent to which this bias occurs. In light of the two previous research papers, we think the parameter misinformation bias is well supported.
 
-#Sources:
+Sources:
 
 Bányai, F., Zsila, A., Királu, O., Maraz, A., Elekes, Z., Griffiths, M. D., Andreassen, C. S., & Demetrovics, Z. (2017). Problematic Social Media Use: Results from a Large-Scale Nationally Representative Adolescent Sample. PLoS ONE, 12(1): e0169839. doi:10.1371/journal.pone.0169839
 
