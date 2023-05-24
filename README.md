@@ -7,7 +7,8 @@ Fig. 1. <img width="609" alt="Screenshot 2023-05-24 at 21 04 26" src="https://gi
 
 As can be seen in Fig. 1, the well-informed nodes (green) are located in the upper right quadrant, the misinformed nodes (red) are located in the lower left quadrant, and the undecided gray nodes (neither well-informed nor misinformed) are randomly distributed on all quadrants. Nota bene, the words “node”, “user”, and “agent” will be used interchangeably.
 
-Fig. 2.
+Fig. 2.<img width="176" alt="Screenshot 2023-05-24 at 21 04 38" src="https://github.com/barnikapusi/misinformation_spread/assets/72254616/3e6932fc-f10e-4978-955d-96be5b7c0b3a">
+
 
 Position-wise, we believe this gives a fair chance for both well-informed and misinformed agents. It should be mentioned that the node conglomerates (Fig. 2) distributed randomly throughout the space represent different communities (for instance, Subreddits or Telegram groups) that are inevitably found throughout social media. In this case, these communities act as hubs of information.
 
@@ -17,7 +18,8 @@ The probabilities are calculated based on the agent property and parameter Phone
 
 Phone Use is determined using the data from Bányai et al. (2017), stating that, on average, users spend approximately 23 hours per week on social media, which comes to an average of 3.5 hours per day (numbers are rounded). The data were then implemented as a random distribution. In our model, we set the minimum limit to 0 hours, equating to a 0% probability of being misinformed, and the maximum to 6.9 hours, equating to a 98.5% probability.
 
-Fig. 3. 
+Fig. 3. <img width="387" alt="Screenshot 2023-05-24 at 21 04 50" src="https://github.com/barnikapusi/misinformation_spread/assets/72254616/823ceaad-f24e-45ba-85c5-5910d246774a">
+
 
 There are four measures; a plot, a percentage of misinformed and well-informed users, and a ratio of links between them (Fig. 3). The plot provides a more visual but also quantitative view of the model (it is harder than expected to quantify how many misinformed nodes there are just by viewing the network), the ratio is used to complement the plot to observe what would be the certain threshold where misinformation would reach variance stability, (or where it would inevitably spread to all users), and the percentages give tangible numeric quantities that can, later on, be converted into the number of misinformed agents and be used for statistical analysis.
 
